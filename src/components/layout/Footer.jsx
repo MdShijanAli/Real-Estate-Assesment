@@ -4,7 +4,7 @@ import { FaDiscord } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-secondary-900 text-white">
+    <footer className="bg-secondary-900 dark:bg-black text-white transition-colors duration-200">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
